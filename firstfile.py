@@ -25,6 +25,17 @@ print(f"corridantes: x= {x}; y = {y}")
 # input_abs = int(abs(user_name_input))
 # print(user_name_input, type(user_name_input))
 
-aa = float(input('please enter your AA: '))
-bb = float(input('please enter your BB: '))
-print('perimeter: ', 2 * (aa + bb)) 
+# aa = float(input('please enter your AA: '))
+# bb = float(input('please enter your BB: '))
+# print('perimeter: ', 2 * (aa + bb)) 
+
+# v, x, t = map(int, input('enter 3 values: ').split())
+# print('newValue: ', v + x + t)
+
+
+number = int(input('enter a number '))
+
+if number > 2:
+    print(f'number greater than 2 by {number - 2}')
+else:
+    print(f'number less than or equal to 2 buy { 2 - number }')
