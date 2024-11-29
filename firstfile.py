@@ -18,5 +18,13 @@ print("coortinates are: x = ", x , "; y = ", y, sep=""),
 #F-from python 3.6
 print(f"corridantes: x= {x}; y = {y}")
 
-name = input()
-print(name, type(name))
+# name = input()
+# print(name, type(name))
+
+# user_name_input= input()
+# input_abs = int(abs(user_name_input))
+# print(user_name_input, type(user_name_input))
+
+aa = float(input('please enter your AA: '))
+bb = float(input('please enter your BB: '))
+print('perimeter: ', 2 * (aa + bb)) 
